@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.top-bar {
+    background-color: #008080; /* Turquoise */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.input-card,
+.list-container {
+    background-color: #d3d3d3; /* Light Grey */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.list-container{
+    width: 500px;
+}
+
+.input-card h2,
+.list-contaier h2 {
+    margin: 0 0 10px 0;
+}
+
+.input-card input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form {
+    background-color: #d3d3d3; /* Light Grey */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form h2 {
+    margin: 0 0 10px 0;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form button {
+    margin-top: 10px;
+    background-color: #008080; /* Turquoise */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #006666; /* Darker Turquoise */
+}
+
+input{
+    max-width: 95%;
+}
+
+#fetch-btn{
+    float: right;
+}
+
+#song-list{
+    list-style-type: none; /* Removes default bullet points*/
+    padding: 0; /* Removes default padding*/
+}
+
+#song-list li{
+    display: block; /* Makes each list item a block element */
+    margin: 2px 0; /* Adds margin between items for spacing */
+    padding: 10px; /* Adds padding inside list items */
+    background-color: #f0f0f0; /* Adds a background color for visualization */
+    border: 1px solid #ccc; /* Adds a border for better separation */
+    border-radius: 5px; /* Rounds the corners of the borders */
+}

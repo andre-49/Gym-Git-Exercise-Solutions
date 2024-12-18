@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <h1>My Minimalistic Web Page</h1>
+    </div>
+
+    <div class="container">
+        <div class="input-card">
+            <h2 id="inputH">Input Card 1</h2>
+            <input  type="text" placeholder="Enter something...">
+        </div>
+
+        <!-- <div class="input-card">
+            <h2>Input Card 2</h2>
+            <input type="text" placeholder="Enter something else...">
+        </div> -->
+
+        <form id="form" class="form">
+            <h2 id="form-heading">Submit your fav songs</h2>
+            <input id="artist-input" class="form-input" type="text" placeholder="Artist" required>
+            <input id="song-input" class="form-input" type="text" placeholder="Song Name" required>
+            <button id='submit-btn' type="button">Submit</button>
+            <button id="fetch-btn" type="button">Fetch List</button>
+        </form>
+        <div class="list-container">
+            <h2>Your List will be displayed here.</h2>
+            <ul id="song-list">
+                <li id="initial">Hey, to test the display</li>
+            </ul>
+        </div>
+        <!-- <script>
+            let tester = document.getElementById('form-heading');
+            tester.style.display='none';
+            //tester.innerHTML=`<p>Submit me<span style='dispay: none'>Invisible</span></p>`
+        </script> -->
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
