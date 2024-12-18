@@ -16,4 +16,4 @@ git ckeckout -b test
 git ckeckout dev && git checkout branch -d test
 git status #to check for changes 
 git add . && git commit -m "adding changes to README file" # to stage and commit changes
-git push origin main 
+git push origin dev
